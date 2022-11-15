@@ -1,9 +1,6 @@
 ###################
-Aplikasi PPM NURBA Open Source
+Aplikasi CRUD MASTER CodeIgniter3 Open Source
 ###################
-
-Aplikasi ini aku buat untuk menyelsaikan tugas Kuliah Praktik sekaligus membuatkan sistem untuk Pondok Pesantren Nur Baiturrahman Yogyakarta.
-Aplikasi ini aku buat menggunakan framework CodeIgniter 3 karena untuk sekarang baru bisa menggunakan framework ini dengan cukup lancar.
 
 *******************
 Fitur-Fitur
@@ -11,10 +8,6 @@ Fitur-Fitur
 
 1. Manjemen User
 2. Manajemen Berita
-3. Manajemen Santri
-4. Manajemen Pendaftaran
-5. Manajemen Ustadz
-6. Manajemen Kajian
 
 *******************
 Server Requirements
@@ -45,7 +38,6 @@ Sumber Daya
 
 - CodeIgniter 3
 - AdminLte (BackEnd View)
-- Mind (FrontEnd View)
 
 Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
 or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
