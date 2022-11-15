@@ -29,6 +29,7 @@ class Auth extends CI_Controller
 				);
 				$this->session->set_userdata($data_sess);
 				redirect(base_url('admin'));
+			}
 			// } else {
 			// 	$data_sess = array(
 			// 		'id'       		=> $user['id_pengguna'],
