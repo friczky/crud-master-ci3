@@ -29,6 +29,7 @@ $this->load->view('backend/komponen/sidebar-admin');
     <!-- Main content -->
     <section class="content">
       <div class="container-fluid">
+
         <!-- Small boxes (Stat box) -->
         <div class="row">
           <div class="col-lg-3 col-6">
@@ -46,50 +47,23 @@ $this->load->view('backend/komponen/sidebar-admin');
             </div>
           </div>
           <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-success">
-              <div class="inner">
-                <h3><?= $this->db->count_all('tb_santri')?></h3>
-
-                <p>Santri</p>
-              </div>
-              <div class="icon">
-                <i class="fa fa-users"></i>
-              </div>
-              <a href="<?= base_url()?>dashboard/santri" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-warning">
-              <div class="inner">
-                <h3><?= $this->db->count_all('tb_ustadz')?></h3>
-
-                <p>Ustadz</p>
-              </div>
-              <div class="icon">
-                <i class="ion ion-person-add"></i>
-              </div>
-              <a href="<?= base_url()?>dashboard/ustadz" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
+         
           <!-- ./col -->
           <div class="col-lg-3 col-6">
             <!-- small box -->
             <div class="small-box bg-danger">
               <div class="inner">
-                <h3><?= $this->db->count_all('tb_kajian')?></h3>
+                <h3><?= $this->db->count_all('tb_pengguna')?></h3>
 
-                <p>Kajian</p>
+                <p>Pengguna</p>
               </div>
               <div class="icon">
-                <i class="ion ion-pie-graph"></i>
+                <i class="fa fa-user"></i>
               </div>
-              <a href="<?= base_url()?>dashboard/kajian" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+              <a href="<?= base_url()?>dashboard/pengguna" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
+
           <!-- ./col -->
         </div>
       </div><!-- /.container-fluid -->
