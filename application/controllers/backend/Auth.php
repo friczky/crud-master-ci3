@@ -29,14 +29,14 @@ class Auth extends CI_Controller
 				);
 				$this->session->set_userdata($data_sess);
 				redirect(base_url('admin'));
-			} else {
-				$data_sess = array(
-					'id'       		=> $user['id_pengguna'],
-					'role'          => $user['role'],
-				);
-				$this->session->set_userdata($data_sess);
-				redirect(base_url('santri'));
-			}
+			// } else {
+			// 	$data_sess = array(
+			// 		'id'       		=> $user['id_pengguna'],
+			// 		'role'          => $user['role'],
+			// 	);
+			// 	$this->session->set_userdata($data_sess);
+			// 	redirect(base_url('santri'));
+			// }
 		} else {
 			$this->session->set_flashdata('alert', '<div class="alert alert-warning">Username atau Kata Sandi Salah !</div>');
 			redirect(base_url('login'));
