@@ -1,0 +1,19 @@
+name: Deployment
+
+on:
+  push:
+    branches:
+    - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: LuisEnMarroquin/setup-ssh-action@v2.0.0
+      with:
+        ORIGIN: ${{ secrets.IP_SERVER }} # example.com || 8.8.8.8
+        SSHKEY: ${{ secrets.SSH_PUBLIC }} # ----- BEGIN RSA PRIVATE KEY----- ...
+        NAME: production
+        PORT: ${{ secrets.PORT }} # 3000
+        USER: ${{ secrets.USERNAME }} # admin
+    - run: ssh production ls --help
