@@ -87,7 +87,7 @@ $this->load->view('backend/komponen/sidebar-admin');
                   <select name="role" id="" class="form-control" required>
 										<option>Pilih Role</option>
 										<option value="0">Administrator</option>
-										<option value="1">Sanri</option>
+										<option value="1">Pengguna</option>
 									</select>
                 </div>
                 <!-- /.form-group -->

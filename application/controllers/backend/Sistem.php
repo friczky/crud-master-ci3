@@ -27,9 +27,6 @@ class Sistem extends CI_Controller {
 			}
 			$data = [
 				'nama_web'			=> $this->input->post('nama_web'),
-				'nama_ppm'			=> $this->input->post('nama_ppm'),
-				'nama_pimpinan'		=> $this->input->post('nama_pimpinan'),
-				'nama_pengasuh'		=> $this->input->post('nama_pengasuh'),
 				'tentang'			=> $this->input->post('tentang')
 			];
 			$this->db->update('tb_sistem',$data);

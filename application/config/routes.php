@@ -11,6 +11,10 @@ $route['logout']						= 'backend/auth/logout';
 
 // dashboard 
 $route['dashboard']						= 'backend/dashboard';
+$route['admin']							= 'backend/dashboard';
+$route['logout']						= 'backend/auth/logout';
+
+
 // berita
 $route['dashboard/berita']				= 'backend/berita';
 $route['dashboard/berita/tambah']		= 'backend/berita/tambah';

@@ -43,6 +43,13 @@ class Auth extends CI_Controller
 			redirect(base_url('login'));
 		}
 	}
+
+	// Fungsi untuk logout
+	public function logout()
+	{
+		$this->session->sess_destroy();
+		redirect(base_url('login'));
+	}
 }
 
 

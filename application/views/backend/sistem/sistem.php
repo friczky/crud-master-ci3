@@ -45,24 +45,6 @@ $this->load->view('backend/komponen/sidebar-admin');
                             <input type="text" class="form-control" name="nama_web" value="<?= $sistem['nama_web']?>" id="">
                         </div>
                     </div>
-                    <div class="form-group row">
-                        <label for="" name="" class="col-sm-2 col-form-label">Nama Pondok Pesantren</label>
-                        <div class="col-sm-10">
-                            <input type="text" name="nama_ppm" class="form-control" value="<?= $sistem['nama_ppm']?>" id="">
-                        </div>
-                    </div>
-					<div class="form-group row">
-                        <label for="" name="" class="col-sm-2 col-form-label">Nama Pimpinan</label>
-                        <div class="col-sm-10">
-                            <input type="text" name="nama_pimpinan" class="form-control" value="<?= $sistem['nama_pimpinan']?>" id="">
-                        </div>
-                    </div>
-					<div class="form-group row">
-                        <label for="" name="" class="col-sm-2 col-form-label">Nama Pengasuh</label>
-                        <div class="col-sm-10">
-                            <input type="text" name="nama_pengasuh" class="form-control" value="<?= $sistem['nama_pengasuh']?>" id="">
-                        </div>
-                    </div>
 					<div class="form-group row">
 						<label for="" class="col-sm-2 col-form-label"> Tentang</label>
 						<div class="col-sm-10">

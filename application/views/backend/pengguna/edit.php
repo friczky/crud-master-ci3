@@ -110,10 +110,10 @@ $this->load->view('backend/komponen/sidebar-admin');
                                 <label>Role</label>
                                 <select name="role" id="" class="form-control" required="required">
                                     <option value="<?= $pengguna['role']?>">
-                                    <?php if($pengguna['role']== 0) { echo "Administrator";}else{echo "Santri";}?>
+                                    <?php if($pengguna['role']== 0) { echo "Administrator";}else{echo "Pengguna";}?>
                                         (Saat Ini)</option>
                                     <option value="0">Administrator</option>
-                                    <option value="1">Santri</option>
+                                    <option value="1">Pengguna</option>
                                 </select>
                             </div>
                             <!-- /.form-group -->
