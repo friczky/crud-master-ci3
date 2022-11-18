@@ -22,9 +22,10 @@ class Profile extends CI_Controller {
 	{
 		$data['title'] = 'Profile';
 		$data['user'] = $this->db->where('id_pengguna',$this->session->userdata('id'))->get('tb_pengguna')->row_array();
-		$data['artikel'] = $this->db->where('id_user',$this->session->userdata('id'))->count_all_results('tb_berita');
+    $data['artikel'] = $this->db->where('id_user',$this->session->userdata('id'))->count_all_results('tb_berita');
+    $data['test'] = 'test';
 		$this->load->view('backend/profile/index',$data);
-	}
+  }
 
 	public function update(){
 		$config['allowed_types'] = 'jpg|png|gif';

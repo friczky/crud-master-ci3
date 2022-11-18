@@ -74,7 +74,8 @@
                         method="post">
                     <span class="login100-form-title p-b-37">
                         Sign In
-						<?= $this->session->flashdata('alert'); ?>
+                      <br>
+						        <small><?= $this->session->flashdata('alert'); ?></small>
                     </span>
                     <div
                         class="wrap-input100 validate-input m-b-20"

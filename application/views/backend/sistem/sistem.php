@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 $this->load->view('backend/komponen/header');
 $this->load->view('backend/komponen/navbar');
@@ -21,7 +21,7 @@ $this->load->view('backend/komponen/sidebar-admin');
                         <li class="breadcrumb-item">
                             <a href="#">Sistem</a>
                         </li>
-                        <li class="breadcrumb-item active">Kostumisasi</li>
+                        <li class="breadcrumb-item active">Tentang Website</li>
                     </ol>
                 </div>
             </div>
@@ -34,7 +34,7 @@ $this->load->view('backend/komponen/sidebar-admin');
         <div class="container-fluid">
             <div class="card">
                 <div class="card-header">
-                    <h3 class="card-title">Kosutmisasi Sistem Web.</h3>
+                    <h3 class="card-title">Tentang Website.</h3>
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body">

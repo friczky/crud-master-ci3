@@ -14,14 +14,14 @@ $this->load->view('backend/komponen/sidebar-admin');
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1>Ssitem</h1>
+                    <h1>Sitem</h1>
                 </div>
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item">
                             <a href="#">Sistem</a>
                         </li>
-                        <li class="breadcrumb-item active">Kostumisasi</li>
+                        <li class="breadcrumb-item active">Kontak Website</li>
                     </ol>
                 </div>
             </div>
@@ -34,8 +34,9 @@ $this->load->view('backend/komponen/sidebar-admin');
         <div class="container-fluid">
             <div class="card">
                 <div class="card-header">
-                    <h3 class="card-title">Kosutmisasi Sistem Web.</h3>
+                    <h3 class="card-title">Kontak Website.</h3>
                 </div>
+                
                 <!-- /.card-header -->
                 <div class="card-body">
                     <form action="<?= base_url()?>backend/sistem/kontak" method="POST">
